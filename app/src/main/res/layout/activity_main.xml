@@ -7,10 +7,17 @@
     android:orientation="vertical"
     android:gravity="center_horizontal"
     tools:context="com.clases.cesar.factorial_cesar.MainActivity">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="¡Bienvenido a su aplicación favorita para calcular factoriales!"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
         <EditText
             android:id="@+id/txtn"
             android:layout_width="match_parent"
@@ -25,7 +32,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:text="Calcular"
-        android:background="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/white"
         android:onClick="calcular"/>
     <TextView

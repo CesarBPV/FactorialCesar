@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity implements FactorialInterfac
 
     @Override
     public void mostrarResultado(String r) {
-        tvr.setText(r);
+        tvr.setText("El resultado del factorial es: "+r);
     }
 }
